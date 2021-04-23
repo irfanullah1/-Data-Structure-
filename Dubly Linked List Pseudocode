@@ -1,0 +1,50 @@
+Node
+
+    data 
+    Node Next,Priv
+    Node(data) init constractor 
+    this.Pri.Next=null
+    
+
+
+Linkedlist
+      
+      Node head
+      Node Tail
+      
+      insertAtFirst(data){
+      
+      Node NewNode=new Node(data)
+      
+      if head==null
+      
+      head,Tail=NewNode
+      
+      else
+      
+      NoewNode.Next=head
+      head.Priv=NewNode
+      head=NewNode
+      
+      }
+      InsertAtLast(data){
+      
+      Node NewNode =new Node(data)
+      
+      if Tail is null
+      Tail=NewNode
+      
+      else
+      
+      NewNode.Priv=Tail
+      Tail.Next=NewNode
+      
+      //chceked it
+      //Tail=NewNode   
+      
+      }
+      
+      
+      
+      
+      
